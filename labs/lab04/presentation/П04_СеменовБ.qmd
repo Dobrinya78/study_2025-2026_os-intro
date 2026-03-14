@@ -1,0 +1,162 @@
+---
+## Front matter
+lang: ru-RU
+title: Отчет по лабораторной работе №4
+subtitle: Операционные системы
+author:
+  - Семенов Богдан
+institute:
+  - Российский университет дружбы народов, Москва, Россия
+
+## i18n babel
+babel-lang: russian
+babel-otherlangs: english
+
+## Formatting pdf
+toc: false
+toc-title: Содержание
+slide_level: 2
+aspectratio: 169
+section-titles: true
+theme: metropolis
+header-includes:
+ - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
+---
+
+# Информация
+
+## Докладчик
+
+  * Семенов Богдан
+  * НКАбд-05-25, Студенческий билет: 1032255197
+  * Российский университет дружбы народов
+  
+## Цель работы
+
+## Выполнение лабораторной работы
+
+##
+
+Установка Corp из комлекции репозитариев ([рис. 1).
+
+![corp](image/1.png){#fig-001 width=70%}
+
+##
+
+Продолжение установки, с помощью команды `dnf install gitflow` (рис. 2).
+
+![gitflow](image/2.png){#fig-002 width=70%}
+
+##
+
+Команда `whereis git-flow` (рис. 3).
+
+![whereis git-flow](image/3.png){#fig-003 width=70%}
+
+##
+
+Установка программного обеспечения для семантического версионирования и общепринятых коммитов. (рис. 4).
+
+![nodejs](image/4.png){#fig-004 width=70%}
+
+##
+
+До установка (рис. 5).
+
+![pnpm](image/5.png){#fig-005 width=70%}
+
+##
+
+Запускаем nodejs (рис. 6).
+
+![запуска](image/6.png){#fig-006 width=70%}
+
+##
+
+Форматируем коммиты (рис. 7).
+
+![форматирование](image/7.png){#fig-007 width=70%}
+
+##
+
+Включили Add README (рис. 8).
+
+![on readme](image/8.png){#fig-008 width=70%}
+
+##
+
+Выполним команду git clone (рис. 9).
+
+![git clone](image/9.png){#fig-009 width=70%}
+
+##
+
+Команда `git-extended/` (рис. 10).
+
+![git-extended](image/10.png){#fig-010 width=70%}
+
+##
+
+Выполнение touch README (рис. 11).
+
+![](image/11.png){#fig-011 width=70%}
+
+##
+
+Добавим новые файлы `git add .` (рис. 12).
+
+![git add .](image/12.png){#fig-012 width=70%}
+
+##
+
+Конфигурация для пакетов nodejs (рис. 13).
+
+![конфиг](image/13.png){#fig-013 width=70%}
+
+##
+
+Файл `packege.json` (рис. 14).
+
+![packege.json](image/14.png){#fig-014 width=70%}
+
+##
+
+Выполним коммит git cz (рис. 15).
+
+![выполнение коммита](image/15.png){#fig-015 width=70%}
+
+##
+
+Инициализируем `git-flow` (рис. 16).
+
+![инициализация](image/16.png){#fig-016 width=70%}
+
+##
+
+Меняем версию на v1.0.0 (рис. 17).
+
+![смена версии](image/17.png){#fig-017 width=70%}
+
+##
+
+Изменили версию в файле на v1.2.3 (рис. 18).
+
+![смена версии](image/18.png){#fig-018 width=70%}
+
+##
+
+Отправим данные на github `git push --all` (рис. 19).
+
+![отправка данных на github](image/19.png){#fig-019 width=70%}
+
+##
+
+Проверка версии на github (рис. 20).
+
+![проверка версии](image/20.png){#fig-020 width=70%}
+
+# Выводы
+
+В ходе выполнения лабораторной работы я приобрел навыки работы с репозиториями git.
+
+# Список литературы
